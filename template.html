@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title of the document</title>
+</head>
+
+<body>
+    include_once 'myWebpage.html'; //add template
+    require_once 'login.php';  //add login credentials
+    $conn = mysqli_connect($host, $user, $pass, $db, $port); //create connection to db
+    if($conn->connect_error) die($conn->connect_error); // quit if it fails
+</body>
+
+</html>
+
