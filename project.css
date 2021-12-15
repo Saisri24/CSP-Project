@@ -1,71 +1,70 @@
-
 body {
-    overflow: scroll;
-    margin-top: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .topnav {
-    overflow: hidden;
-    float: center;
-    margin-top: 25px;
-    text-align: center;
-  }
-  
-  .topnav a {
-    float: center;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 30px;
-  }
-  
-  .topnav a:hover {
-    float: center;
-    color: black;
-  }
-  
-  .topnav a.active {
-    float: center;
-    color: black;
-  }
-  
-  hr.solid {
-    border-top: 3px solid #bbb;
-  }
-  
-  .ratings a {
-    text-decoration: none; 
-    color: inherit;
-  }
-  
-  .ratings a:hover {
-    text-decoration: underline;
-  }
-  
-  .otherbuttons {
-    overflow: hidden; 
-    position: absolute;
-    bottom:0px;
-    left:0px;
-    width:1500px; 
-    text-align: left;
-    background-color: #333;
-  } 
-  
-  .otherbuttons a {
-    text-decoration: none;
-    color: inherit;
-    color: #f2f2f2;
-  }
-  
-  .otherbuttons a:hover {
-    text-decoration: underline;
-    background-color: black;
-    color: black;
-  }
-  
-  .otherbuttons a.active{
-    color: white;
-  }
+  overflow: scroll;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  float: center;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.topnav a {
+  float: center;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.topnav a:hover {
+  float: center;
+  color: black;
+}
+
+.topnav a.active {
+  float: center;
+  color: black;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+
+.ratings a {
+  text-decoration: none; 
+  color: inherit;
+}
+
+.ratings a:hover {
+  text-decoration: underline;
+}
+
+.otherbuttons {
+  overflow: hidden;
+  bottom:0px;
+  left:0px;
+  position: absolute;
+  width:100%; 
+  text-align: left;
+  background-color: #333;
+} 
+
+.otherbuttons a {
+  text-decoration: none;
+  color: inherit;
+  color: #f2f2f2;
+}
+
+.otherbuttons a:hover {
+  text-decoration: underline;
+  background-color: black;
+  color: black;
+}
+
+.otherbuttons a.active{
+  color: white;
+}
