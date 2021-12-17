@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <meta name="viewport" content="width=device-width, initial-scale=1">   
   <link rel = "stylesheet" href="project.css">
-    <link rel = "javascript" href="project.js">
-    <style> 
-      html {
-        background-image: url(https://c4.wallpaperflare.com/wallpaper/43/430/561/sea-ocean-water-wave-wallpaper-preview.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: 0 0;
-      }
-    </style>
+  <link rel = "javascript" href="project.js">
 <head>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">   
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Create two equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    </style>
 </head>
-<body style="margin-left:400px; margin-right: 400px;">
+<body style="background-color:rgb(255, 233, 196); margin-left: 400px; margin-right: 400px;">
 
 <div class="topnav">
   <a class="active" style= "font-family: apple chancery;"href="homepage.html">S.E.A. TV</a>
@@ -24,117 +35,140 @@
   <p style="text-align:center;"> We do TV reviews and recommendations!</p>
 </div>
 
-<div class="ratings">
-  <h1 style="font-size:18px; text-indent:55px"> Ratings </h1> 
-  
-  <ul style="list-style: none;">
+
+<div class="row">
+  <div class="column">
+    <h2>Ratings</h2>
+    <hr class="solid">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+        .checked {
+        color: orange;
+        }
+      </style>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br> 
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
     <hr class="solid">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <style>
+         .checked {
+         color: orange;
+         }
+       </style>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star checked"></span>
+       <span class="fa fa-star "></span>
+    <p>Some text..</p>
+    <br>
+    <br>
+    <br>
+    <br>
     
-    <li>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <style>
-        .checked {
-        color: orange;
-        }
-      </style>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-    </li>
-      
- <div class="5stars"> 
-  <h3> <a href="lucifer.html"> Lucifer </a> </h3>
-  <h3> <a href="s&b.html"> Shadow and Bone </a> </h3> 
-  <h3> <a href="CobraKaipage"> Cobra Kai </a> </h3>
-  <h3> <a href="Tangled"> Tangled </a> </h3>
- </div>
-         
-      
     <hr class="solid">
-      
-    <li>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <style>
-        .checked {
-        color: orange;
-        }
-      </style>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star "></span>
-    </li>
-      
-      <ol>
-        <li> 
-          <a href="tvd.html"> The Vampire Diaries </a> </li>
-        <li> <a href="theflashpage" > The Flash </a> </li>
-        <li> <a href="the100page"> The 100 </a> </li>
-        <li> <a href="tUApage"> The Umbrella Academy </a> </li>
-      </ol>
-      
-      <hr class="solid">
-      
-    <li> 
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <style>
-        .checked {
-        color: orange;
-        }
-      </style>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star "></span>
-      <span class="fa fa-star "></span>
-    </li>
-      
-      <ol>
-        <li> <a href="supergirl.html"> Supergirl </a> </li>
-        <li> <a href="riverdale.html"> Riverdale </a> </li>
-      </ol>
-      
-      <hr class="solid">
-      
-    <li> 
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <style>
-        .checked {
-        color: orange;
-        }
-      </style>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star "></span>
-      <span class="fa fa-star "></span>
-      <span class="fa fa-star "></span>
-    </li>
 
-      <p style="text-indent:20px;"> <i> N/A </i></p>
-      <hr class="solid">
-      
-    <li> 
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <style>
-        .checked {
-        color: orange;
-        }
-      </style>
-      <span class="fa fa-star checked"></span>
-      <span class="fa fa-star "></span>
-      <span class="fa fa-star "></span>
-      <span class="fa fa-star "></span>
-      <span class="fa fa-star "></span>
-    </li>
-      
-      <p style="text-indent:20px;"> <i> N/A </i></p>
-      <hr class="solid">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .checked {
+      color: orange;
+      }
+    </style>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star "></span>
+    <span class="fa fa-star "></span>
 
-  </ul> 
+    <hr class ="solid">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .checked {
+      color: orange;
+      }
+    </style>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star "></span>
+    <span class="fa fa-star "></span>
+    <span class="fa fa-star "></span>
+
+    <hr class="solid">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .checked {
+      color: orange;
+      }
+    </style>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star "></span>
+    <span class="fa fa-star "></span>
+    <span class="fa fa-star "></span>
+    <span class="fa fa-star "></span>
+
   </div>
+  <div class="column">
+    <br>
+    <br>
+    <br>
+
+
+    <div class="5stars"> 
+      <h3> <a href="lucifer.html"> Lucifer </a> </h3>
+      <h3> <a href="s&b.html"> Shadow and Bone </a> </h3> 
+      <h3> <a href="CobraKaipage"> Cobra Kai </a> </h3>
+      <h3> <a href="Tangled"> Tangled </a> </h3>
+     </div>
+  
+     <br>
+     <br>
+    
+
+     <div class="4stars">
+        <h3> <a href="tvd.html"> The Vampire Diaries </a> </h3> 
+        <h3> <a href="theflashpage" > The Flash </a> </h3> 
+        <h3> <a href="the100page"> The 100 </a> </h3> 
+        <h3> <a href="tUApage"> The Umbrella Academy </a> </h3> 
+      </div>
+
+      <br>
+      <br>
+
+      <div class="3stars"> 
+        <h3> <a href="supergirl.html"> Supergirl </a> </h3>
+        <h3> <a href="riverdale.html"> Riverdale </a> </h3>
+      </div>
+
+      <div class="2stars">
+        <p style="text-indent:20px;"> <i> N/A </i></p>
+      </div>
+
+      <div class="1star">
+        <p style="text-indent:20px;"> <i> N/A </i></p>
+      </div>
+
+      <hr class="solid">
+
+  </div>
+</div>
+
 <div class="otherbuttons">
   <a href="aboutus.html">ABOUT US</a> 
   <a href="contactus.html">CONTACT US</a> 
