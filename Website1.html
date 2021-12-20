@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Questions</h3>
+
+<div class="background-image">
+
+  <body style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQe6qoV7S4VjDo4RSOw6GXF23WH0LZ6bqKta6NqRptBx1hDHqHqHELgBh5QPW2yCFBY0k&usqp=CAU); margin-left: 30%; margin-right: 30%;">
+  
+    <div class="topnav">
+      <a class="active" style= "font-family: apple chancery;"href="homepage.html">S.E.A. TV</a>
+    </div>
+    
+    <div style="padding-left:16px;" >
+      <p style="text-align:center;"> We do TV reviews and recommendations!</p>
+    </div>
+  
+<form action ="http://127.0.0.1:5000/inventory" method = "post">
+    <label for="movie_genre">What genre of movies do you prefer?</label>
+    <select id="movie_genre" name="movie_genre">
+      <option value="sci-fi">sci-fi</option>
+      <option value="action">action</option>
+      <option value="drama">drama</option>
+      <option value="fantasy">fantasy</option>
+      <option value="animation">animation</option>
+      <option value="romance">romance</option>
+      <option value="mystery">mystery</option>
+      <option value="superhero">superhero</option>
+      <option value="supernatural">supernatural</option>
+
+    </select>
+    
+    <br><br><label for="movie_character">Would you prefer a hero, a heroine, or many protagonists? </label>
+    <select id="movie_character" name="movie_character">
+      <option value="Hero">Hero</option>
+      <option value="Heroine">Heroine</option>
+      <option value="protagonists">Many protagonists</option>
+    </select>
+
+    <br><br><label for="movie_type"> Would you prefer to watch a show or a movie? </label>
+    <select id="movie_type" name="movie_type">
+      <option value="show">Show</option>
+      <option value="movie">Movie</option>
+    </select>
+
+    <br><br><label for="movie_len"> How many seasons would you like if you chose a tv show?  </label>
+    <select id="movie_len" name="movie_len">
+      <option value="more">More than 4</option>
+      <option value="less">Less than 4</option>
+    </select>
+
+
+    <br><br><input type="submit">
+
+
+
+  </form>
+</div>
+  
+<div class="otherbuttons">
+  <a href="aboutus.html">ABOUT US</a> 
+  <a href="contactus.html">CONTACT US</a> 
+  <a href="Website1.html"> QUESTIONARE</a>
+</div>
+
+</body>
+</html>
