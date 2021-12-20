@@ -18,4 +18,3 @@ function normalImg1(x) {
     x.style.width = "200px";
 }
   
-
