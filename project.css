@@ -85,7 +85,7 @@ hr.solid {
 .otherbuttons a:hover {
   text-decoration: underline;
   background-color: black;
-  color: black;
+  color: white;
 }
 
 .otherbuttons a.active{
