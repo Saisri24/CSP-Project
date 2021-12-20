@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
   <link rel = "stylesheet" href="project.css">
-  <link rel = "javascript" href="project.js">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel = "javascript" href="script.js">
+  <script type="text/javascript" src="script.js"></script>
+
 </head>
 
 
@@ -18,7 +20,7 @@
   <div style="padding-left:16px;" >
     <p style="text-align:center;"> We do TV reviews and recommendations!</p>
   </div>
-  
+
   <div class="ratings" style="margin-right: 20px;">
     <h1 style="font-size:18px; text-indent:55px"> Ratings </h1> 
     
@@ -42,7 +44,7 @@
   
     <div class="flex-container"> 
       <div class="flex-child"> 
-        <img src="https://m.economictimes.com/thumb/msid-84753762,width-200,height-150,resizemode-4,imgsize-736605/lucifer-revolves-around-lucifer-morningstar-played-by-tom-ellis-the-devil-who-abandons-hell-for-los-angeles-.jpg">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="https://m.economictimes.com/thumb/msid-84753762,width-1200,height-900,resizemode-4,imgsize-736605/lucifer-revolves-around-lucifer-morningstar-played-by-tom-ellis-the-devil-who-abandons-hell-for-los-angeles-.jpg" style="width:200px; height: 150px; object-fit: cover;">
       </div>  
       <div class="flex-child:first-child">
         <a href="lucifer.html"> <b>Lucifer</b> </a> 
@@ -53,7 +55,7 @@
 
     <div class="flex-container"> 
       <div class="flex-child"> 
-        <img src="https://vanderbilthustler.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-03-at-8.09.10-PM-900x457.png" style="width: 200px; height: 100px;">
+        <img onmouseover="bigImg1(this)" onmouseout="normalImg1(this)"  src="https://vanderbilthustler.com/wp-content/uploads/2021/05/Screen-Shot-2021-05-03-at-8.09.10-PM-900x457.png" style="width: 200px; height: 100px;">
       </div>  
       <div class="flex-child:first-child">
         <a href="s&b.html"> <b>Shadow and Bone</b> </a> 
@@ -64,7 +66,7 @@
 
     <div class="flex-container"> 
       <div class="flex-child"> 
-        <img src="https://flxt.tmsimg.com/assets/p18991265_b_h9_ab.jpg" style="width: 200px; height:135px">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="https://flxt.tmsimg.com/assets/p18991265_b_h9_ab.jpg" style="width: 200px; height:135px">
       </div>  
       <div class="flex-child:first-child">
         <a href="CobraKai.html"> <b>Cobra Kai</b> </a> 
@@ -75,7 +77,7 @@
 
     <div class="flex-container"> 
       <div class="flex-child"> 
-        <img src="https://www.theedgesusu.co.uk/wp-content/uploads/2020/11/tangled.jpg" style="width:200px; height: 150px; object-fit: cover;">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="https://www.theedgesusu.co.uk/wp-content/uploads/2020/11/tangled.jpg" style="width:200px; height: 150px; object-fit: cover;">
       </div>  
       <div class="flex-child:first-child">
         <a href="tangled.html"> <b>Tangled</b> </a> 
@@ -103,7 +105,7 @@
         
       <div class="flex-container"> 
         <div class="flex-child"> 
-          <img src="https://ntvb.tmsimg.com/assets/p10700229_b_h10_aa.jpg?w=960&h=540" style="width:200px; height: 150px; object-fit: cover;">
+          <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="https://ntvb.tmsimg.com/assets/p10700229_b_h10_aa.jpg?w=960&h=540" style="width:200px; height: 150px; object-fit: cover;">
         </div>  
         <div class="flex-child:first-child">
           <a href="tvd.html"> <b>The Vampire Diaries</b> </a>          
@@ -114,7 +116,7 @@
 
       <div class="flex-container"> 
         <div class="flex-child"> 
-          <img src="https://static.next-episode.net/tv-shows-images/huge/the-flash.jpg" style="width:200px; height: 150px; object-fit: cover;">
+          <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="https://static.next-episode.net/tv-shows-images/huge/the-flash.jpg" style="width:200px; height: 150px; object-fit: cover;">
         </div>  
         <div class="flex-child:first-child">
           <a href="flash.html" > <b>The Flash</b> </a> 
@@ -124,7 +126,7 @@
 
       <div class="flex-container"> 
         <div class="flex-child"> 
-          <img src="https://geekspin.co/wp-content/uploads/2020/09/the-100-season-8.jpg" style="width:200px; height: 150px; object-fit: cover;">
+          <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="https://geekspin.co/wp-content/uploads/2020/09/the-100-season-8.jpg" style="width:200px; height: 150px; object-fit: cover;">
         </div>  
         <div class="flex-child:first-child">
           <a href="100.html"> <b>The 100</b> </a> 
@@ -134,7 +136,7 @@
 
       <div class="flex-container"> 
         <div class="flex-child"> 
-          <img src="https://i.imgur.com/sJgBQBe.jpg" style="width:200px; height: 150px; object-fit: cover;">
+          <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="https://i.imgur.com/sJgBQBe.jpg" style="width:200px; height: 150px; object-fit: cover;">
         </div>  
         <div class="flex-child:first-child">
           <a href="umbrella.html"> <b>The Umbrella Academy</b> </a> 
@@ -161,7 +163,7 @@
 
       <div class="flex-container"> 
         <div class="flex-child"> 
-          <img src="https://www.cnet.com/a/img/0zIGhk4Ywi33xADEmOrTtBHetAw=/1200x630/center/top/2017/06/22/3c34448b-c996-4058-b3ec-00973ffa95af/supergirl-11.jpg" style="width:200px; height: 150px; object-fit: cover;">
+          <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="https://www.cnet.com/a/img/0zIGhk4Ywi33xADEmOrTtBHetAw=/1200x630/center/top/2017/06/22/3c34448b-c996-4058-b3ec-00973ffa95af/supergirl-11.jpg" style="width:200px; height: 150px; object-fit: cover;">
         </div>  
         <div class="flex-child:first-child">
           <a href="supergirl.html"> <b>Supergirl</b> </a>
@@ -172,7 +174,7 @@
 
       <div class="flex-container"> 
         <div class="flex-child"> 
-          <img src="https://releasedate.news/wp-content/uploads/2021/11/Riverdale-Season-6-Episode-2-Release-Date-and-Spoiler.jpg" style="width:200px; height: 150px; object-fit: cover;">
+          <img onmouseover="bigImg(this)" onmouseout="normalImg(this)"  src="https://releasedate.news/wp-content/uploads/2021/11/Riverdale-Season-6-Episode-2-Release-Date-and-Spoiler.jpg" style="width:200px; height: 150px; object-fit: cover;">
         </div>  
         <div class="flex-child:first-child">
           <a href="riverdale.html"> <b>Riverdale</b> </a>          
@@ -217,6 +219,7 @@
         <hr class="solid">
   
     </ul> 
+
     </div>
   <div class="otherbuttons">
     <a href="aboutus.html">ABOUT US</a> 
